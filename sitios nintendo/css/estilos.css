@@ -1,0 +1,165 @@
+#general{width: 90%;
+	margin:auto;
+}
+
+#cabecera {width: 100%;
+	height:300px;
+	background: #33ffa5; 
+	margin:auto;
+}
+
+#menu_nav{width: 100%;
+	height:50px;
+	background: #b71c1c ;
+	margin:auto;
+}
+	#menu_nav ul{
+		list-style-type: none;
+		margin: 0;
+		padding:0;
+		display: flex;
+	}
+	#menu_nav ul li{
+		position: relative;
+	}
+	#menu_nav ul li a{
+		display: block;
+		color: white;
+		padding: 15px 20px;
+		text-decoration-color: none;
+	}
+	#menu_nav ul li a:hover{
+		background: whitesmoke;
+	}
+	#menu_nav ul li ul{
+		display:none;
+		position:absolute;
+		top:100%;
+		left:0;
+		background: #b71c1c;
+		padding:0;
+		list-style-type: none;
+	}
+	#menu_nav ul li ul li a{
+		padding: 10px 20px;
+	}
+	#menu_nav ul li ul li a:hover{
+		background: whitesmoke;
+	}
+	#menu_nav ul li:hover ul{
+		display: block;
+	}
+	#menu_nav a:link{
+		color: #17202a;
+		background: #b71c1c;
+	}
+
+	#menu_nav a:visited{
+		color: #17202a;
+		background:#b71c1c ;
+	}
+
+#izquierda{width: 20%;
+	height: 800px;
+	background: #FFA3A3 ; 
+	float:left;
+
+}
+   #izquierda ul{
+	  list-style-type: none;
+	  border: 2px solid #2874a6 ;
+	  width: 180px;
+	  padding: 10px;
+	  background: #2874a6 ;
+}
+
+	#izquierda li{
+		border: 2px solid indigo;
+		background: lightpink;
+		text-align: center;
+		height: 70px;
+		line-height: 70px;
+		background-image: url(../img/pepe.png);
+	}
+
+	#izquierda a:link{
+		color: #17202a;
+	}
+
+	#izquierda a:hover{
+		color: #17202a;
+		background: ;
+		display: block;
+		background-image: url(../img/lol.png);
+	}
+
+	#izquierda a:visited{
+		color: #17202a;
+	}
+
+#centro{width: 60%;
+	height: 800px;
+	background: #fbfcfc; 
+	float:left;
+}
+
+	.producto{
+		float: left;
+		border:3px solid #ac0c1c;
+		margin:20px;
+		border-radius: 50px;
+	}
+
+	.imagen{
+    	float: left;
+    	margin: 25px;
+    	border: 5px solid #ac0c1c;
+    	padding: 10px;
+	}
+
+	.parrafo{
+		font-size: 15px;
+    	border: 5px dashed #ac0c1c;
+    	margin-left:270px;
+    	margin-top: 20px;
+    	margin-left: 290px;
+    	margin-right: 20px;
+    	padding: 10px;
+	}
+#medio{
+	width: 100%;
+	height: 580px;
+	background: #FFA3A3 ; 
+	text-align: center;
+}
+
+#derecha{width: 20%;
+	height: 800px;
+	background: #FFA3A3 ; 
+	float:left;
+}
+
+	.video{
+		width: 85%;
+		height: 750px;
+		background: #FFA3A3 ; 
+		border: 2px solid black;
+		margin-left:10px;
+    	margin-top: 10px;
+    	margin-left: 10px;
+    	margin-right: 10px;
+    	margin-bottom: 300px;
+    	padding: 10px;
+}
+
+#pie{width: 100%;
+	height:200px;
+	background: #b71c1c ;
+	float:left;
+}
+	.red{
+		float: right;
+	}
+	.mario{
+		float: left;
+	}
